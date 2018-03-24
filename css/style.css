@@ -1,4 +1,111 @@
 body {
-  background-color: #dadada;
-  font-size: 10px;
+	background-color: #dadada;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+h1 {
+	padding: 25px;
+}
+.container {
+}
+.luxury {
+	text-transform: uppercase;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 300px;
+	background-color: grey;
+}
+.cities {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	font-size: 150%;
+}
+.preview_baku {
+	background-image: url(../images/baku.jpg);
+}
+.preview_london {
+	background-image: url(../images/london.png);
+}
+.preview_madrid {
+	background-image: url(../images/madrid.jpg);
+}
+.preview_rome {
+	background-image: url(../images/rome.jpg);
+}
+.preview_baku, .preview_london, .preview_madrid, .preview_rome {
+	background-repeat: no-repeat;
+	display: block;
+	height: 300px;
+	width: 300px;
+	margin-bottom: 10px;
+	background-size: 100% 100%;
+}
+
+@media screen and (min-width: 991px) {
+.preview_baku, .preview_london, .preview_madrid, .preview_rome {
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 250px;
+	width: 250px;
+	margin: 3%;
+	background-size: 100% 100%;
+	padding: 1%;
+}
+.luxury {
+	text-transform: uppercase;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 65%;
+	background-color: grey;
+}
+.cities {
+	background-color: grey;
+	width: 65%;
+	font-size: 130%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+}
+
+@media screen and (min-width: 1199px) {
+.preview_baku, .preview_london, .preview_madrid, .preview_rome {
+	background-repeat: no-repeat;
+	background-color: white;
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	margin: 1%;
+	background-size: 100% 100%;
+}
+h1 {
+	font-size: 120%;
+	padding: 15px;
+}
+.container {
+}
+.luxury {
+	text-transform: uppercase;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+	text-align: center;
+	width: 65%;
+}
+.cities {
+	display: flex;
+	justify-content: center;
+	font-size: 100%;
+	width: 65%;
+
+}
 }
