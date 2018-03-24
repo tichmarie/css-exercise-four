@@ -24,6 +24,7 @@ h1 {
 	margin-right: auto;
 	width: 300px;
 	font-size: 150%;
+	background-color: grey;
 }
 .preview_baku {
 	background-image: url(../images/baku.jpg);
